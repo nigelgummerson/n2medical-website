@@ -9,7 +9,7 @@ Both registered 2026-07-05 for a **10-year term** (expire ~2036-07):
 
 - **`n2medical.uk`** — registrar **Cloudflare** (same account as `skeletalsurgery.com`; DNS native to Cloudflare)
 - **`n2medical.co.uk`** — registrar **Gandi.net** (DNS at Gandi, or delegate nameservers to Cloudflare for one dashboard)
-- **Company:** N2 Medical Ltd — Companies House **10631273**, registered office 8 Shaftesbury Avenue, Leeds, LS8 1DT
+- **Company:** N2 Medical Ltd — Companies House **10631273**
 
 GitHub Pages takes **one** canonical custom domain (the `CNAME`); the other
 should 301-redirect to it. Decide which is primary (see below), then point the
@@ -30,3 +30,11 @@ canonical domain's DNS at GitHub Pages and set up a redirect on the other.
 
 Site enquiries currently point to `skeletalsurgery@icloud.com`; swap for an
 `@n2medical.uk` mailbox once email is set up on the domain.
+
+## Registered office in the footer
+
+The footer shows the company's registered office, as the Companies (Trading
+Disclosures) Regulations 2008 require. If the registered office changes,
+update it at Companies House first and the footer second; the footer must match
+the register at all times. The plan for that change is kept in `docs/`
+(git-ignored, in the store).
